@@ -14,16 +14,179 @@
 
 }
 
-.card-custom {
-  padding: 20px;
+.home-description {
+    text-align: justify;
+    font-size: large;
+}
+
+.o-video {
+  width: 100%;
+  
+}
+
+section.video-gallary {
+    width: 100%;
+    float: left;padding: 61px 0px;
+}
+
+section#contactus {
+    width: 100%;
+float: left;
+    padding: 22px 1px;
+    padding-bottom: 57px;
+}
+
+section#carousel {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
 }
 
 
+.o-videos {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+}
+
+iframe.scern-vdo {
+    width: 100%;
+    float: left;
+}
+hr.underline-bottom {
+    width: 159px;
+    color: red;
+    border-top: 4px solid;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.underline-bottom-1{
+ width: 109px;
+    color: red;
+    border-top: 4px solid;
+    margin: 0 auto;
+    padding-bottom: 40px;
+
+}
+section.video-gallary h1 {
+    padding-bottom: 15px;
+}
+
+.imges-gallry img {
+    width: 100%;
+    float: left;
+    margin: 15px 0px;
+}
+
+section.img-gallary {
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+section.img-gallary h1 {
+    text-align: center;
+    font-family: cursive;
+    color: red;
+    padding: 55px 0px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    background: #343a40;
+    float: left;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+section#carousel {
+    width: 100%;
+    float: left;
+    padding-top: 34px;
+}
+
+.details h1 {
+    margin-top: 25px;
+}
+
+.details p {
+    text-align: justify;
+}
+
+.card-custom .card {
+    margin: 20px 0px;
+}
 
 
-/*
-________________________________________________________________
-contact us
-________________________________________________________________*/
+@media only screen and (max-width: 768px) {
+
+.detail h1 {
+    margin-top: 29px;
+}
+}
 
 
+@media only screen and (max-width: 425px) {
+ .column {
+    width: 100%;
+}
+.col-lg-6.col-md-12.col-12.details {
+    padding: 0;
+}
+}
+
+@media only screen and (max-width: 375px) {
+
+
+a.navbar-brand {
+    margin-right: 0;
+        font-size: 1rem;
+}
+
+}
